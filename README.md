@@ -1,5 +1,12 @@
-Multi-read no_std ring buffer
+Multi-read `no_std` ring buffer
 =============================
+
+[![Build Status]][travis] [![Latest Version]][crates.io]
+
+[Build Status]: https://api.travis-ci.org/mbr/wheelbuf-rs.svg?branch=master
+[travis]: https://travis-ci.org/mbr/wheelbuf-rs
+[Latest Version]: https://img.shields.io/crates/v/wheelbuf.svg
+[crates.io]: https://crates.io/crates/wheelbuf
 
 The wheelbuffer crate offers a ringbuffer-like structure without a read pointer, making multiple reads of a buffer possible. The store behind the buffer can be a static array, a vector or any other structure that can be converted into a slice.
 
